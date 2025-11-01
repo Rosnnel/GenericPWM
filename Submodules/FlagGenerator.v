@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
+
 module FlagGnerator #(parameter PWMFreq=500, SysClock=100000000, Resolution = 8)
 (reset,clk,FreqSel,Flag);
 

@@ -1,24 +1,5 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 28.10.2025 15:16:43
-// Design Name: 
-// Module Name: Generic_PWM
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
 
 module Generic_PWM #(parameter SysClk = 125000000, NPWM = 5, PWMFreq = 50, Resolution = 8)
 (clk,reset,FreqSel,DC_bus,PWMOut);

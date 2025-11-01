@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
+
 module Counter #(parameter Resolution = 8)(clk,reset,Enable,Count);
 
     input clk,reset,Enable;
